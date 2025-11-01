@@ -1,0 +1,123 @@
+/* header  */
+.heading_reg
+{
+    background-color: mediumblue;
+    margin: 0px 0px;
+}
+/* ------------------------- */
+
+
+/* navigation bar  */
+.navbar_reg
+{
+    background-color: rgb(0, 0, 97);
+}
+
+.navlist_reg
+{
+    list-style: none;
+    margin: 0px;
+}
+
+.navlist_reg .right
+{
+    float: right;
+    margin-right: 30px;
+    
+}
+
+.navlist_reg li
+{
+    display: inline-block;
+    padding: 6px;
+}
+
+.navlist_reg li a
+{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.navlist_reg li:hover 
+{
+    background-color: white;
+}
+
+.navlist_reg li a:hover
+{
+    color: rgb(0, 0, 97);
+}
+/* ------------------------- */
+
+
+
+/* registration system  */
+
+
+.reg_page {
+    width: 100%;
+    max-width: 900px;
+    background: color-mix(in srgb, mediumblue 30%, white 70%);
+    padding: 30px;
+    /* border-radius: 15px; */
+    /* box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); */
+    animation: fadeIn 1s ease forwards;
+}
+
+.reg_h2 {
+    text-align: center;
+    color: mediumblue;
+    margin-bottom: 20px;
+    animation: slideDown 1s ease forwards;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+h3 {
+    color: mediumblue;
+    margin-top: 20px;
+    border-bottom: 2px solid mediumblue;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.c_reglabel {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: mediumblue;
+}
+
+.reg_input,
+textarea,
+select {
+    border: 2px solid mediumblue;
+    /* border-radius: 8px; */
+}
+
+.reg_input:focus,
+textarea:focus {
+    border-color: mediumblue;
+    box-shadow: 0 0 8px rgba(255, 111, 97, 0.3);
+}
+
+.reg_btn {
+    background-color: #0000cd;
+    color: white;
+    border: 2px solid gray;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: medium;
+    /* border-radius: 8px; */
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    /* animation: bounce 1s infinite; */
+}
+
+.reg_btn:hover {
+    background-color: white;
+    color: mediumblue;
+}
+/* ------------------------- */

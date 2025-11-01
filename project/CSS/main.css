@@ -1,0 +1,72 @@
+/* import */
+@import url('font.css');
+@import url('registration.css');
+@import url('login.css');
+@import url('registration_error.css');
+/* ------------------------- */
+
+
+/* body  */
+body
+{
+    margin: 0px;
+    overflow-x: scroll;
+}
+
+main
+{
+    margin: 8px;
+}
+/* ------------------------- */
+
+
+/* header  */
+.container
+{
+    margin: 0 auto;
+    width: 41%;
+    overflow: hidden;
+}
+
+.logo_image
+{
+    width: 100%;
+}
+/* ------------------------- */
+
+
+/* navigation bar  */
+.active_list
+{
+    font-weight: bold;
+}
+/* ------------------------- */
+
+/* main class */
+.inputation_system {
+    margin: auto;
+    width: 50%;
+    height: 320px;
+    margin-top: 28px;
+    overflow-y: scroll;
+    overflow-x: none;
+}
+
+.inputsize
+{
+    width: 86%;
+    padding: 10px;
+    margin-top: 5px;
+    outline: none;
+}
+
+input:hover::after  
+{
+    content: "please proceed...";
+}
+
+h2 sub
+{
+    font-weight: bold;
+}
+
